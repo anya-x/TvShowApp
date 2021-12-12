@@ -8,12 +8,12 @@
     <fragment
         android:id="@+id/tvShowFragment"
         android:name="com.example.watchtvseries.TvShowFragment"
-        android:label="fragment_tv_show"
-        tools:layout="@layout/fragment_tv_show" />
+        android:label="Shows"
+        tools:layout="@layout/fragment_tv_shows" />
     <fragment
         android:id="@+id/favTvShowFragment"
         android:name="com.example.watchtvseries.FavTvShowFragment"
-        android:label="fragment_fav_tv_show"
-        tools:layout="@layout/fragment_fav_tv_show" />
+        android:label="Favourites"
+        tools:layout="@layout/fragment_fav_tv_shows" />
 
 </navigation>
