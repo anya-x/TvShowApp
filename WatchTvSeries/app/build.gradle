@@ -46,21 +46,20 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     // Coordinator Layout
     implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
-
     // Material Components
     implementation 'com.google.android.material:material:1.4.0-alpha03'
-
     // Navigation Component
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.0'
 
-    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02"
-    kapt "androidx.hilt:hilt-compiler:1.0.0-alpha02"
-
-
+    // for recyclerview
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
     implementation 'com.todkars:shimmer-recyclerview:0.4.1'
-
-
+    // for adding cardview
+    implementation 'androidx.cardview:cardview:1.0.0'
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.google.code.gson:gson:2.8.8'
 
 }
