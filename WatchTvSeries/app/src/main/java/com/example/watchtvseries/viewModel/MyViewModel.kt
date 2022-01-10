@@ -1,4 +1,4 @@
-package com.example.watchtvseries
+package com.example.watchtvseries.viewModel
 
 import android.app.Application
 import android.content.Context
@@ -7,6 +7,7 @@ import android.net.NetworkCapabilities
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import com.example.watchtvseries.APIResult
 import com.example.watchtvseries.data.Repository
 import com.example.watchtvseries.model.TvShowJsonData
 import kotlinx.coroutines.launch
@@ -56,7 +57,7 @@ class MyViewModel @Inject constructor(
     private fun APIResponseHandler(response: Response<TvShowJsonData>): APIResult<TvShowJsonData>? {
         when {
             response.isSuccessful -> {
-                return APIResult.Success(Recipeshavebeenretrieved)
+                return APIResult.Success("Recipeshavebeenretrieved")
             }
 
             response.message().toString().isNullOrEmpty() -> {

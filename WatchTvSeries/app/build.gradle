@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-kapt'
+    //id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
 
 }
@@ -28,10 +28,15 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        //jvmTarget = '1.8'
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 
     dataBinding{
+        enabled = true
+    }
+
+    viewBinding{
         enabled = true
     }
 }
@@ -55,9 +60,8 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
     // for recyclerview
-    implementation 'com.facebook.shimmer:shimmer:0.5.0'
-    implementation 'com.todkars:shimmer-recyclerview:0.4.1'
-    // for adding cardview
+
+    implementation 'androidx.recyclerview:recyclerview:1.2.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     // Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
@@ -65,11 +69,13 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.8'
     // Hilt
     implementation "com.google.dagger:hilt-android:2.36"
-    kapt "com.google.dagger:hilt-android-compiler:2.36"
+    annotationProcessor "com.google.dagger:hilt-android-compiler:2.36"
     implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
-    kapt "androidx.hilt:hilt-compiler:1.0.0"
+    annotationProcessor "androidx.hilt:hilt-compiler:1.0.0"
     //Data Binding
-    kapt "androidx.databinding:databinding-common:7.0.4"
-    kapt "com.android.databindind.compiler:3.2.0-alpha10"
+    annotationProcessor "androidx.databinding:databinding-common:7.0.4"
+    //kapt "com.android.databindind.compiler:3.2.0-alpha10"
+    implementation "io.coil-kt:coil:1.4.0"
+    implementation 'com.squareup.okhttp3:okhttp:3.12.11'
 
 }
