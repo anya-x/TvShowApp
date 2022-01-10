@@ -1,7 +1,8 @@
 package com.example.watchtvseries
 
 import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-@HiltAndroidAPP
+@HiltAndroidApp
 class MyApplication: Application() {
 }

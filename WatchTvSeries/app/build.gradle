@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.watchtvseries"
-        minSdk 21
+        minSdk 24
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -35,7 +35,7 @@ android {
 dependencies {
 
 
-    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
@@ -46,10 +46,10 @@ dependencies {
     // Coordinator Layout
     implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
     // Material Components
-    implementation 'com.google.android.material:material:1.4.0-alpha03'
+    implementation 'com.google.android.material:material:1.6.0-alpha01'
     // Navigation Component
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.0'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.3.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
     // for recyclerview
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
     implementation 'com.todkars:shimmer-recyclerview:0.4.1'
@@ -60,9 +60,9 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation 'com.google.code.gson:gson:2.8.8'
     // Hilt
-    implementation "com.google.dagger:hilt-android:2.31.2-alpha"
-    kapt "com.google.dagger:hilt-android-compiler:2.31.2-alpha"
+    implementation "com.google.dagger:hilt-android:2.36"
+    kapt "com.google.dagger:hilt-android-compiler:2.36"
     implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
-    kapt "androidx.hilt:hilt-compiler:1.0.0-alpha03"
+    kapt "androidx.hilt:hilt-compiler:1.0.0"
 
 }

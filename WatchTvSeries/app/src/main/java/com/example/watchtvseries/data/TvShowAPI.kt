@@ -1,8 +1,7 @@
-package com.example.watchtvseries
-import com.example.watchtvseries.Model.TvShowJsonData
+package com.example.watchtvseries.data
+import com.example.watchtvseries.model.TvShowJsonData
 import retrofit2.Response
 import retrofit2.http.GET
-import retrofit2.http.Query
 import retrofit2.http.QueryMap
 
 
@@ -11,7 +10,7 @@ import retrofit2.http.QueryMap
 // with a suspend function which makes the function
 // run in a background thread instead of main thread
 interface TvShowAPI {
-    @GET("/shows")
+    @GET("/shows/")
     suspend fun getTvShow(
         @QueryMap queries: Map<String, String>
     ):Response<TvShowJsonData>
