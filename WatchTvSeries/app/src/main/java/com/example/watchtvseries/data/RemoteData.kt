@@ -1,8 +1,10 @@
 package com.example.watchtvseries.data
-
-//import retrofit2.Response
-import com.example.watchtvseries.model.TvShowJsonData
+import com.example.watchtvseries.data.TvShowAPI
 import retrofit2.Response
+import com.example.watchtvseries.model.TvShowJsonData
+
+import com.example.watchtvseries.model.TvShowJsonDataItem
+
 import javax.inject.Inject
 
 class RemoteData @Inject constructor(
