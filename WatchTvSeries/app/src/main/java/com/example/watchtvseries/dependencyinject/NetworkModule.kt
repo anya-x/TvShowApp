@@ -1,22 +1,21 @@
 package com.example.watchtvseries.dependencyinject
 
 import com.example.watchtvseries.Constant.Companion.BASE_URL
-import com.example.watchtvseries.TvShowAPI
+import com.example.watchtvseries.data.TvShowAPI
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.components.ApplicationComponent
+import dagger.hilt.components.SingletonComponent
 import okhttp3.OkHttpClient
-import retrofit2.HttpException
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
+import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
 
 // providing all the dependencies for getting our TvMaze API
 @Module
-@InstallIn(ApplicationComponent::class)
+@InstallIn(SingletonComponent::class)
 object NetworkModule {
 
     @Provides
@@ -24,8 +23,14 @@ object NetworkModule {
     fun provideConverterFactory(): GsonConverterFactory{
         return GsonConverterFactory.create()
     }
+
+    @Provides
+    @Singleton
     fun provideHttpClient(): OkHttpClient{
-        return OkHttpClient.Builder().build()
+        return OkHttpClient.Builder()
+            .readTimeout(15, TimeUnit.SECONDS)
+            .connectTimeout(15, TimeUnit.SECONDS)
+            .build()
     }
     @Provides
     @Singleton

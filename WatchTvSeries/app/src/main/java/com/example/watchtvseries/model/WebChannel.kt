@@ -1,11 +1,11 @@
-package com.example.watchtvseries.Model
+package com.example.watchtvseries.model
 
 
 import com.google.gson.annotations.SerializedName
 
-data class Network(
+data class WebChannel(
     @SerializedName("country")
-    val country: Country,
+    val country: Any,
     @SerializedName("id")
     val id: Int,
     @SerializedName("name")
