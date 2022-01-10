@@ -4,7 +4,7 @@ import com.example.watchtvseries.Model.TvShowJsonData
 import retrofit2.Response
 import javax.inject.Inject
 
-class RemoteDataSource @Inject constructor(
+class RemoteData @Inject constructor(
     private val tvShowAPI: TvShowAPI
 ) {
     // TvShow wrapped in Retrofit.Response
