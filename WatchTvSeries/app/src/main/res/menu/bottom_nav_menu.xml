@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/tvShowFragment"
+    <item android:id="@+id/nav_tv_shows"
         android:title="Home"
         android:icon="@drawable/ic_menu" />
 
-    <item android:id="@+id/favTvShowFragment"
-        android:title="@string/favtvshowfragment"
+    <item android:id="@+id/nav_favorites"
+        android:title="Favorites"
         android:icon="@drawable/ic_favorite" />
 
 </menu>

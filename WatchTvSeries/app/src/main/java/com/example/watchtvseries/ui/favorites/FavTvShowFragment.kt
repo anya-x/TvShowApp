@@ -1,21 +1,21 @@
-package com.example.watchtvseries
+package com.example.watchtvseries.ui.favorites
 
-import android.os.Bundle
+
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import com.example.watchtvseries.R
 
 
-class FavTvShowFragment : Fragment() {
+class FavTvShowFragment : Fragment(R.layout.fragment_fav_tv_shows) {
 
-    override fun onCreateView(
+    /**override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_fav_tv_shows, container, false)
-    }
+    }**/
 
 
 }
+
+
