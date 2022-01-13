@@ -7,8 +7,11 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.get
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.watchtvseries.viewModel.MyViewModel
+import com.example.watchtvseries.viewModel.TvShowViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -16,10 +19,11 @@ class TvShowFragment : Fragment() {
     private lateinit var myViewModel: MyViewModel
     private val myAdapter by lazy { TvShowsAdapter() }
     private lateinit var myView: View
-    private lateinit var tvShowViewModel: MyViewModel
+    private lateinit var tvShowViewModel: TvShowViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         myViewModel = ViewModelProvider(requireActivity()).get(MyViewModel::class.java)
         tvShowViewModel = ViewModelProvider(requireActivity()).get(TvShowViewModel::class.java)
 
@@ -37,11 +41,12 @@ class TvShowFragment : Fragment() {
         return myView
     }
     private fun setUpRecyclerview(){
-        myView.recyclerview.adapter = myAdapter
+        tvShowViewModel.recyclerView.adapter = myAdapter
         myView.recyclerview.layoutManager = LinearLayoutManager(requireContext())
 
     }
     private fun requestApiData() {
+
         myViewModel.getTvShows(tvShowViewModel.applyQueries())
         myViewModel.APIResponse.observe(viewLifecycleOwner, { response ->
             when(response) {
