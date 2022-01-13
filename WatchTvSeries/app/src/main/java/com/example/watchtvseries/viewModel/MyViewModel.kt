@@ -57,7 +57,7 @@ class MyViewModel @Inject constructor(
     private fun APIResponseHandler(response: Response<TvShowJsonData>): APIResult<TvShowJsonData>? {
         when {
             response.isSuccessful -> {
-                return APIResult.Success("Recipeshavebeenretrieved")
+                return response.body()?.let { APIResult.Success(it) }
             }
 
             response.message().toString().isNullOrEmpty() -> {
