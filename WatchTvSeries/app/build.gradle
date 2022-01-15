@@ -5,6 +5,7 @@ plugins {
     id 'dagger.hilt.android.plugin'
 
 }
+apply plugin: 'kotlin-android'
 android {
     compileSdk 31
 
@@ -89,11 +90,19 @@ dependencies {
     implementation "org.koin:koin-android:2.1.5"
     implementation "org.koin:koin-android-viewmodel:2.1.5"
 
+    // Paging
+    implementation "androidx.paging:paging-runtime-ktx:3.1.0"
+
+
     // Glide
     implementation 'com.github.bumptech.glide:glide:4.11.0'
 
-    // Log
+    // Logging
     implementation 'com.squareup.okhttp3:logging-interceptor:4.2.1'
+    implementation "androidx.core:core-ktx:1.7.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10"
 
 }
+
 

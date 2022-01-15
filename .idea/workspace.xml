@@ -10,41 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b4b637-16a0-479a-a372-60be8bf1fbc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/APIResult.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/Constant.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/FavTvShowFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/MyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/MyApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/TvShowFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/TvShowsAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/data/RemoteData.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/data/Repository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/data/TvShowAPI.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/dependencyinject/NetworkModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/Country.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/Externals.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/Image.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/Links.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/Network.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/Previousepisode.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/Rating.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/Self.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/TvShowJsonData.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/TvShowJsonDataItem.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/model/WebChannel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/utils/TvShowDiffUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/utils/TvShowRowBinding.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/viewModel/MyViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/viewModel/TvShowViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/fragment_fav_tv_shows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/fragment_fav_tv_shows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/fragment_tv_shows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/fragment_tv_shows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/placeholder_row.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/shows_list_row.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/menu/nav_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/navigation/home_nav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/navigation/home_nav.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +47,7 @@
     <property name="ResourceManagerPrefKey.ResourceType" value="MENU" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WatchTvSeries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager">
@@ -155,7 +124,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
