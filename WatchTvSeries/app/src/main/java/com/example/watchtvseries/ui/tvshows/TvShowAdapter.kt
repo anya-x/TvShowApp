@@ -5,23 +5,12 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
-import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.watchtvseries.data.remote.TVShow
+import com.example.watchtvseries.data.model.TVShow
 import com.example.watchtvseries.databinding.FragmentTvShowRowBinding
 
 class TvShowAdapter (private val itemClickListener: ItemClickListener) :
-    PagingDataAdapter<TVShow, TvShowAdapter.TvShowViewHolder>(ShowsDiffCallback()) {
-    class TvShowViewHolder(private val binding: FragmentTvShowRowBinding): RecyclerView.ViewHolder(binding.root) {
-        fun bind(tvShow: TVShow, itemClickListener: ItemClickListener) {
-            binding.titleTextView.text = tvShow.name
-            binding.posterImageView.bindImage(tvShow)
-            binding.root.setOnClickListener {
-                itemClickListener.onItemClick(tvShow)
-            }
-        }
-
-    }
+    PagingDataAdapter<TVShow, TvShowViewHolder>(ShowsDiffCallback()) {
     override fun onBindViewHolder(holder: TvShowViewHolder, position: Int) {
         val tvShow = getItem(position)
         tvShow?.let {
@@ -43,9 +32,9 @@ class ItemClickListener(val click: (tvShow: TVShow) -> Unit) {
     }
 }
 
-fun ImageView.bindImage(show: TVShow) {
+fun ImageView.bindImage(url: String) {
     Glide.with(this.context)
-        .load(show.image.original)
+        .load(url)
         .into(this)
 }
 

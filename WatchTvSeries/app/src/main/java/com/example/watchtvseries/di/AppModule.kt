@@ -1,7 +1,9 @@
 package com.example.watchtvseries.di
+import com.example.watchtvseries.api.TvShowAPIService
 import com.example.watchtvseries.data.remote.TvShowAPIBuilder
-import com.example.watchtvseries.data.remote.TvShowAPIService
-import com.example.watchtvseries.repository.TvShowsRepository
+import com.example.watchtvseries.data.remote.TvShowsRepository
+import com.example.watchtvseries.ui.details.DetailViewModel
+import com.example.watchtvseries.ui.search.SearchViewModel
 import com.example.watchtvseries.ui.tvshows.TvShowViewModel
 import org.koin.android.viewmodel.dsl.viewModel
 import org.koin.dsl.module
@@ -11,11 +13,10 @@ val appModule = module {
     single<TvShowAPIService> { TvShowAPIBuilder().tvShowAPIService }
 
 
-    // single instance of HelloRepository
     factory<TvShowsRepository> { TvShowsRepository(get()) }
 
-    // Simple Presenter Factory
-    //factory { MySimplePresenter(get()) }
 
     viewModel { TvShowViewModel(get()) }
+    viewModel { DetailViewModel(get()) }
+    viewModel { SearchViewModel(get()) }
 }

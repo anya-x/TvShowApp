@@ -1,8 +1,7 @@
-package com.example.watchtvseries.ui.tvshows
+package com.example.watchtvseries.data.remote
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.watchtvseries.data.remote.TVShow
-import com.example.watchtvseries.repository.TvShowsRepository
+import com.example.watchtvseries.data.model.TVShow
 
 class TvShowPagingSource(val tvShowsRepository: TvShowsRepository) : PagingSource<Int, TVShow>() {
 

@@ -1,11 +1,10 @@
 package com.example.watchtvseries.data.remote
+import com.example.watchtvseries.api.TvShowAPIService
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import okhttp3.logging.HttpLoggingInterceptor.Level
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-
-
 
 class TvShowAPIBuilder {
     companion object {

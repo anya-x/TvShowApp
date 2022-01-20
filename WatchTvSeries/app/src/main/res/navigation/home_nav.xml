@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home_nav"
-    app:startDestination="@id/nav_tv_shows">
+    app:startDestination="@id/tvShowFragment">
 
     <fragment
         android:id="@+id/nav_tv_shows"
@@ -15,5 +15,39 @@
         android:name="com.example.watchtvseries.ui.favorites.FavTvShowFragment"
         android:label="Favourites"
         tools:layout="@layout/fragment_fav_tv_shows" />
+
+    <fragment
+        android:id="@+id/tvShowFragment"
+        android:name="com.example.watchtvseries.ui.tvshows.TvShowFragment"
+        android:label="tvshow_fragment"
+        tools:layout="@layout/fragment_tv_shows" >
+        <action
+            android:id="@+id/action_tvShowFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_tvShowFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.watchtvseries.ui.search.SearchFragment"
+        android:label="search_fragment"
+        tools:layout="@layout/fragment_details_show" >
+        <action
+            android:id="@+id/action_searchFragment_to_tvShowFragment"
+            app:destination="@id/tvShowFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.watchtvseries.ui.details.DetailFragment"
+        android:label="details_fragment"
+        tools:layout="@layout/fragment_details_show" >
+        <argument
+            android:name="tvShow"
+            app:argType="com.example.watchtvseries.data.remote.TVShow" />
+    </fragment>
 
 </navigation>

@@ -3,5 +3,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tvshowfragment">Home</string>
     <string name="favtvshowfragment">Favorite</string>
+    <string name="genre">Genre</string>
+    <string name="search">Search</string>
+    <string name="title">Title</string>
 
 </resources>

@@ -7,8 +7,11 @@
         <entry key="..\:/Users/rasla/AndroidStudioProjects/TvShowApp/WatchTvSeries/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/rasla/AndroidStudioProjects/TvShowApp/WatchTvSeries/app/src/main/res/drawable/ic_baseline_tv_24.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/rasla/AndroidStudioProjects/TvShowApp/WatchTvSeries/app/src/main/res/layout/activity_main.xml" value="0.1408514492753623" />
+        <entry key="..\:/Users/rasla/AndroidStudioProjects/TvShowApp/WatchTvSeries/app/src/main/res/layout/fragment_fav_tv_shows.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/rasla/AndroidStudioProjects/TvShowApp/WatchTvSeries/app/src/main/res/layout/fragment_search.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/rasla/AndroidStudioProjects/TvShowApp/WatchTvSeries/app/src/main/res/layout/fragment_tv_show_row.xml" value="0.17617753623188406" />
         <entry key="..\:/Users/rasla/AndroidStudioProjects/TvShowApp/WatchTvSeries/app/src/main/res/layout/fragment_tv_shows.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/rasla/AndroidStudioProjects/TvShowApp/WatchTvSeries/app/src/main/res/layout/genre_item.xml" value="0.23867753623188406" />
         <entry key="..\:/Users/rasla/AndroidStudioProjects/TvShowApp/WatchTvSeries/app/src/main/res/menu/bottom_nav_menu.xml" value="0.16927083333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.19114583333333332" />
