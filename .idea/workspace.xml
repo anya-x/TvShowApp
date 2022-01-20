@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2b4b637-16a0-479a-a372-60be8bf1fbc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowViewModel.kt" afterDir="false" />
-    </list>
+    <list default="true" id="b2b4b637-16a0-479a-a372-60be8bf1fbc1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +42,7 @@
     <property name="ResourceManagerPrefKey.ResourceType" value="MENU" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WatchTvSeries" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager">

@@ -47,7 +47,7 @@
         tools:layout="@layout/fragment_details_show" >
         <argument
             android:name="tvShow"
-            app:argType="com.example.watchtvseries.data.remote.TVShow" />
+            app:argType="com.example.watchtvseries.data.model.TVShow" />
     </fragment>
 
 </navigation>

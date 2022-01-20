@@ -1,6 +1,7 @@
 package com.example.watchtvseries.data.model
 
 import android.os.Parcelable
+import com.example.watchtvseries.data.model.Image
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
