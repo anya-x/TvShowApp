@@ -43,7 +43,7 @@ class SearchFragment : Fragment() {
             }
         } else {
             binding.searchRecyclerView.apply {
-                layoutManager = GridLayoutManager(requireContext(), 3)
+                layoutManager = GridLayoutManager(requireContext(), 2)
                 adapter = searchAdapter
             }
         }

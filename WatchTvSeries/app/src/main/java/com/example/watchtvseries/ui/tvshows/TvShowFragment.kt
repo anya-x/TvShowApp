@@ -54,7 +54,7 @@ class TvShowFragment : Fragment() {
             }
         } else {
             binding.showsRecyclerView.apply {
-                layoutManager = GridLayoutManager(requireContext(), 3)
+                layoutManager = GridLayoutManager(requireContext(), 2)
                 adapter = tvShowAdapter
             }
         }
