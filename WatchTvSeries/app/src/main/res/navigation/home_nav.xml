@@ -12,9 +12,16 @@
         tools:layout="@layout/fragment_tv_shows" />
     <fragment
         android:id="@+id/nav_favorites"
-        android:name="com.example.watchtvseries.ui.favorites.FavTvShowFragment"
+        android:name="com.example.watchtvseries.ui.favorites.FavoriteTvShowFragment"
         android:label="Favourites"
-        tools:layout="@layout/fragment_fav_tv_shows" />
+        tools:layout="@layout/fragment_fav_tv_shows" >
+        <action
+            android:id="@+id/action_nav_favorites_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_nav_favorites_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/tvShowFragment"

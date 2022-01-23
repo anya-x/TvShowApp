@@ -9,7 +9,22 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2b4b637-16a0-479a-a372-60be8bf1fbc1" name="Default Changelist" comment="" />
+    <list default="true" id="b2b4b637-16a0-479a-a372-60be8bf1fbc1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/MyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/MyApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/data/remote/TvShowPagingSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/data/remote/TvShowPagingSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/details/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/details/DetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/details/DetailViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/details/DetailViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/favorites/FavTvShowFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/favorites/FavoriteTvShowFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/java/com/example/watchtvseries/ui/tvshows/TvShowAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/fragment_details_show.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/fragment_details_show.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/fragment_fav_tv_shows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/fragment_fav_tv_shows.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/fragment_tv_show_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/layout/fragment_tv_show_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/navigation/home_nav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WatchTvSeries/app/src/main/res/navigation/home_nav.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +57,7 @@
     <property name="ResourceManagerPrefKey.ResourceType" value="MENU" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WatchTvSeries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Afya_challenge/TvShowApp" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager">
