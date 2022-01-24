@@ -22,7 +22,7 @@
         android:layout_margin="16dp"
         android:contentDescription="@string/search"
         android:src="@drawable/ic_baseline_search_24"
-        tools:layout_editor_absoluteX="339dp"
-        tools:layout_editor_absoluteY="569dp" />
+        app:layout_constraintEnd_toEndOf="@+id/shows_recyclerView"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
